@@ -1,0 +1,39 @@
+
+#fblogo{
+    width:244px;
+    height:49px;
+    left:270px;
+    right:511px;
+    top:201px;
+    bottom:254px;
+    position: absolute;
+}
+#fbdesc{
+   text-align: justify;
+   margin-left: 295px;
+   left:-25px;
+   right:751px;
+   top:280px;
+   bottom:332px;
+   position: absolute;
+}
+#card{
+    padding: 20px;
+    margin-left:850px;
+    margin-top:60px;
+    box-shadow: 0px 0px 10px #888888;
+}
+#card input{
+    height: 50px;
+}
+#login{
+    width: 300px;
+    height:45px;
+}
+#register{
+    width: 191px;
+    height: 50px;
+}
+#page{
+    margin-left:580px;
+}

@@ -1,0 +1,124 @@
+.Post{
+    width: 70vw;
+    box-shadow: 0px 1px 3px gray;
+    border:1px solid #ccc;
+    padding:16px;
+    margin:20px auto;
+}
+img{
+    width:80%;
+}
+#postImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#postAuthor,#postDesc{
+    text-align: justify;
+}
+
+#postCard{
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#like{
+    width: 20px;
+}
+hr {
+  width:90%; 
+  margin-left:5% !important; 
+
+}
+#searchbox{
+    width: 15%;
+    height: 40px;
+    border-radius: 25px;
+    background-color:#F0F2F5;
+    border:0px;
+}
+
+#navlogos{
+    margin-left: 260px;
+}
+
+#btn2,#btn3{
+    margin-left: 55px;
+}
+#likebtn,#cmntbtn{
+    color: gray;
+    border-radius: 10px;
+    background-color:white;
+    border:0px;
+    padding: 10px;
+}
+
+#likebtn:focus{
+    color:#0571ED;
+    outline: none;
+    box-shadow: none;
+}
+#cmntbtn:focus,#btn1:focus,#btn2:focus,#btn3:focus,#btncross:focus{
+    outline: none;
+    box-shadow: none;
+}
+#btn1,#btn2,#btn3{
+    background-color:white;
+    border: 0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+}
+#btncross{
+    padding: 0;
+    border: none;
+    background: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#btn1:hover,#btn2:hover,#btn3:hover,#likebtn:hover,#cmntbtn:hover{
+    background-color:#F0F2F5;
+}
+
+#newdiv{
+    background-image: url("https://img.wallpapersafari.com/desktop/1440/900/46/12/TFmO45.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+}
+
+#cmntdes {
+    background-color: rgba(184, 181, 181, 0.247);
+    width: 450px;
+    word-break: break-all;
+    height: fit-content;
+    padding: 10px;
+    margin-left:415px;
+    text-align:start;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#delbtn{
+    color: rgba(122, 121, 121, 0.836);
+    transition-duration: 0.1s;
+    border: 0px;
+    background:none;
+}
+#delbtn:hover{
+    cursor: pointer;
+    color:#df413c;
+}
+
+#userdiv{
+   display:flex;
+   flex-wrap: wrap;
+}
